@@ -1,0 +1,12 @@
+*.jpg
+*.png
+*.JPG
+*.pt
+*.gz
+*.json
+*.pyc
+.data
+*.txt
+*.bpe
+.idea
+models
