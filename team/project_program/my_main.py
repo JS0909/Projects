@@ -11,6 +11,10 @@ for KoGPT2 versions
     - fastai : 2.7.10
     - tokenizer : 3.4.1
     - typing_extensions : 4.3.0
+
+for stable-diffusion versions
+    - ftfy : 6.1.1
+    - tensorflow_addons : 0.18.0
 '''
 
 import urllib.request
