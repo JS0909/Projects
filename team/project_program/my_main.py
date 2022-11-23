@@ -1,13 +1,14 @@
 # 가상환경 : project
 
 ''' << Version Notice >>
+python : 3.9.7
 tensorflow : 2.8.2
 torch : 1.13.1
 
 for KoGPT2 versions
     - transformers : 4.12.0
     - torch text : 0.6.0
-    - fastai : 0.80.0
+    - fastai : 2.7.10
     - tokenizer : 3.4.1
     - typing_extensions : 4.3.0
 '''
