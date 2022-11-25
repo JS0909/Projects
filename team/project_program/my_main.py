@@ -404,7 +404,7 @@ with open('Project\KoGPT2/짧은시.txt', encoding='UTF8') as f:
     lines = f.read()
 
 lines = " ".join(lines.split())
-lines = re.sub('[.,\"\']', '',lines)
+lines = re.sub('[\.\,\"\']', '',lines)
 print(len(lines)) # 6655
 
 #split data
