@@ -496,10 +496,9 @@ if this != all_words[-1]:
       sentences.append(all_words[end:])
 
 txtoutput = []
-for i in range(len(sentences)):    
+for i in range(1, len(sentences)+1):    
   txtoutput.append(' '.join(sentences[i]))
-  if i == 4:
-        txtoutput = txtoutput + ['\n'] 
+  if i%4==0: txtoutput = txtoutput + ['\n'] 
 txtoutput = ''.join(txtoutput)
 
 print(txtoutput)
