@@ -1,0 +1,9 @@
+names:
+- gun
+nc: 1
+train: C:\study\project\team\YOLOv5\dataset/train.txt
+val: C:\study\project\team\YOLOv5\dataset/val.txt
+
+
+
+
