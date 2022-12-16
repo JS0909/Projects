@@ -18,7 +18,7 @@ import joblib as jb
 # typing_extensions : 4.3.0
 # gensim : 3.8.3
 
-'''
+# '''
 tokenizer = PreTrainedTokenizerFast.from_pretrained("skt/kogpt2-base-v2",
   bos_token='</s>', eos_token='</s>', unk_token='<unk>',
   pad_token='<pad>', mask_token='<mask>') 
